@@ -3,13 +3,12 @@ package com.example.antifraud.Antifraudsystem.DTO;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 @Getter
 @Setter
-@ToString
 @NoArgsConstructor
-public class CardNumberDTO {
+public class OperationDTO {
 
-    private String number;
+    private String username;
+    private String operation;
 }

@@ -9,7 +9,9 @@ import lombok.ToString;
 @Setter
 @ToString
 @NoArgsConstructor
-public class CardNumberDTO {
+public class RoleDTO {
 
-    private String number;
+    private String username;
+    private String role;
 }
+
