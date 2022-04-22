@@ -1,6 +1,5 @@
 package com.example.antifraud.Antifraudsystem.Service;
 
-import com.example.antifraud.Antifraudsystem.Exception.UserNotFoundException;
 import com.example.antifraud.Antifraudsystem.Model.UserEntity;
 import com.example.antifraud.Antifraudsystem.Model.UserEntityDetails;
 import com.example.antifraud.Antifraudsystem.Repository.UserEntityRepository;

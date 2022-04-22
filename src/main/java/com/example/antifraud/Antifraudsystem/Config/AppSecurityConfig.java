@@ -30,7 +30,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
         httpSecurity.authorizeRequests()
                 .mvcMatchers("/api/auth/user", "/actuator/shutdown").permitAll()
                 .mvcMatchers("/api/antifraud/transaction").hasRole("MERCHANT")
-                .mvcMatchers("/api/antifraud/suspicious-ip", "api/antifraud/stolencard").hasRole("SUPPORT")
+                .mvcMatchers("/api/antifraud/**").hasRole("SUPPORT")
                 .mvcMatchers("/api/auth/list").hasAnyRole("SUPPORT", "ADMINISTRATOR")
                 .mvcMatchers("/api/auth/**").hasRole("ADMINISTRATOR")
                 .anyRequest().authenticated()
