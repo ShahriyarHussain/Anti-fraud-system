@@ -1,6 +1,6 @@
 package com.example.antifraud.Antifraudsystem.Enum;
 
-public enum TransactionActions {
+public enum TransactionAction {
     ALLOWED,
     MANUAL_PROCESSING,
     PROHIBITED

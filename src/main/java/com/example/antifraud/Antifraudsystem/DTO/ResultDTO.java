@@ -1,6 +1,6 @@
 package com.example.antifraud.Antifraudsystem.DTO;
 
-import com.example.antifraud.Antifraudsystem.Enum.TransactionActions;
+import com.example.antifraud.Antifraudsystem.Enum.TransactionAction;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,6 +11,6 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResultDTO {
-    private TransactionActions result;
+    private TransactionAction result;
     private String info;
 }
